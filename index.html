@@ -1,87 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <title>Landing Page</title>
-    <style>
-        .navigation {
-            background-color: purple;
-            display: flex;
-            justify-content: space-evenly;
-            align-items:center;
-            padding:10px 20px;
-        }
-        .navigation h1 {
-            margin-bottom: 10px;
-            text-decoration: underline;
-        }
-        .navigation ul {
-            display: flex;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-
-        }
-        .navigation li {
-            margin-left: 20px;
-            text-decoration: underline;
-        }
-        .navigation a {
-            text-decoration: none;
-            color: black;
-        }
-        .content {
-            padding: 20px;
-            flex: 1;
-            background-color: violet;
-
-        }
-        .content h3 {
-            height: fit-content;
-            font-size: 34px;
-        }
-        .content img {
-            width: 100%;
-            max-width: 400px;
-            margin-bottom: 20px;
-        }
-        .content p {
-            font-size: 16px;
-            line-height: 1.5;
-            font-family: Georgia;
-        }
-        .footer {
-            background-color: rgb(140, 140, 207);
-            padding: 10px;
-            text-align: center;
-        }
-        .footer span {
-            font-style: italic;
-        }
-    </style>
-</head>
-
-<body bgcolor="black">
-    <div class="container">
-        <nav class="navigation">
-            <h1>ANKITH MOHAN</h1>
-            <ul>
-                <li><a href="#"><abbr title=" 12717">Id</abbr></a></li>
-                <li><a href="#"><abbr title="ankith1092@gmail.com"> Email</abbr></a></li>
-            </ul>
-        </nav>
-        <main class="content">
-            <h3> TASK 1 </h3>
-            <img src="image.jpg" alt="Sorry for image being not been displayed">
-            <p>This is the first task assigned to me for creating a basic landing page with incoporating at most Html
-                elments and CSS to the page </p>
-            <p>Please hover over the "Id" and "Email" For my information</p>
-        </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html and CSS website
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!--navigation panel-->
+  <body>
+    <nav class="navbar">
+      <div class="navbar__conatiner">
+        <a href="#" id="navbar__logo"><i class="fa-regular fa-face-meh-blank"></i>
+            ANKITH MOHAN </a>
+         <div class="navbar__logo">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="index.html" class="navbar__links"> HoMe</a>
+        </li>
+        <li class="navbar__item">
+            <a href="Me.html" class="navbar__links"> Me</a>
+        </li>
+        <li class="navbar__btn">
+            <a href="" class="button"> YOUR Review</a>
+        </li>
+      </ul>
+    </nav>
+    <!--navigation panel-->
+    <!--Main panel-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+            <h1> TASK 2</h1>
+            <h2 >Activity</h2>
+            <p> DONE ! <br>Created a landing page with more immersive interaction for others</p>
+            <button class="main__btn"><a href="#"> WeLcOmE</a></button>
+          </div>
+      <div class="main__img-container">
+            <img src="pic.svg"alt="Sorry !!" id="main_img">
+        </div>
+        </div>
+        </div>
+      <!--Skills-->
+    <div class="services">
+        <h1>To Know more about me</h1>
+      <div class="services__container">
+        <div class="services_card">
+          <h2> Skils</h2>
+           <li>
+            Web Devlopment
+           </li>
+           <li>'C' and 'C++'</li>
+           <li> Python </li>
+        </div>
+        <div class="services_card">
+          <h2> Communication</h2>    
+      <li><a href="">Linkedin</a></li><li><a href="#">github</a></li>
+        </div>
+      </div>
     </div>
-    <footer class="footer">
-        <span>&copy;Main Flow</span>
-    </footer>
-</body>
-
+    <!--Footer Section-->
+<div class="footer">
+    <footer>
+      <p>To © Main Flows Services and Technologies</p>  
+  </footer>
+  </div>
+  </body>
 </html>
