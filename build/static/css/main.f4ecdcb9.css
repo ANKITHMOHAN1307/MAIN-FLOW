@@ -1,0 +1,2 @@
+.navbar{align-items:center;background-color:#ffc107;display:flex;justify-content:space-between;padding:1rem}.navbar ul{display:flex;gap:1rem;list-style:none}.navbar a{color:#fff;text-decoration:none}.about,.home{align-items:center;background-color:#fff;display:flex;flex-direction:column;min-height:calc(100vh - 60px)}.home img{margin-bottom:2rem;width:200px}.about{justify-content:center}.social-links{display:flex;gap:1rem;margin-top:2rem}.shape{background-color:#ff0;border-radius:50%;position:absolute}
+/*# sourceMappingURL=main.f4ecdcb9.css.map*/
