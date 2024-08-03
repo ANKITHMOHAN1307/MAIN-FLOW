@@ -1,0 +1,62 @@
+body{
+  background-color: black;
+}
+.calculator {
+  width: 300px;
+  margin: 0 auto; /* Centers the calculator horizontally */
+  margin-top:10%;
+  border: 1px solid #ccc;
+    border-bottom:2px solid white;
+  padding: 20px ;
+  background-color:skyblue; /* Light gray background */
+}
+ 
+.calculator-heading {
+  font-family: cursive; /* Use a cursive font for a carnival-like look */
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom, cyan 50% ,black 50%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-shadow: 2px 2px 2px #fff; /* Add a slight drop shadow */
+}
+
+#display {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  padding: 10px 0PX;
+    border-left: 2PX white;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: #333; /* Dark gray background (opposite to calculator) */
+  color: #fff; /* White text (opposite to calculator) */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #eee; /* Light gray background (opposite to display) */
+  color: #333; /* Dark gray text (opposite to display) */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 0.1s ease-in-out; /* Animation for pushup effect */
+}
+
+button:hover {
+  transform: translateY(-2px); /* Push up slightly on hover */
+  background-color: #ddd; /* Slightly darker background on hover */
+}

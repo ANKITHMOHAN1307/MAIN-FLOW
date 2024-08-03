@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.navbar {
+  background:black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  font-size: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding:0 50px;
+}
+
+#navbar__logo {
+  background-color: purple;
+  background-image: linear-gradient(to top,purple 50%, white 10%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 29px;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items:center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__item {
+  height: 80px;
+}
+
+.navbar__links {
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.navbar__links:hover {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+
+/* Main Content CSS */
+.main {
+  background-color: black;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: white;
+  border-radius: 8cap;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.main__content {
+  color:peru;
+  width: 100%;
+}
+
+.main__content h1 {
+  font-size: 4rem;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.main__content h2 {
+  font-size: 4rem;
+  margin-top: 10px;
+  background-color: #ff8177;
+  background-image: linear-gradient(-20deg, red 50%, white 50%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.main__content p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color:balck;
+}
+
+.main__btn {
+  font-size: 1rem;
+  background-image: linear-gradient(to top, white 70%, purple 40%);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+
+
+.main__img--container {
+  text-align: center;
+}
+
+#main__img {
+  height: 80%;
+  width: 80%;
+}
+
+/*review pagge */
+
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: purple;
+  color: rgb(243, 239, 239);
+  cursor: pointer;
+  size: 50px;
+}
+
+.button:hover {
+  background: black;
+  transition: all 0.4s ease;
+}
+
+.review-form {
+  width: 15cm;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size:1.5rem
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.review-form input[type="text"],
+.review-form textarea ,
+.review-form input[type="email"]
+{
+  width: 100%;
+  padding: 5px;
+  border: 10px solid #ccc;
+  border-radius: 9px;
+}
+
+.review-form textarea {
+  height: 100px; /* Adjust message box height as needed */
+}
+
+.review-form .error {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* footer */
+
+.footer{
+  background-color: black;
+  text-align: center;
+}
+.footer p{
+  color:white;
+}
